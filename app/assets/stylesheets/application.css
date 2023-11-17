@@ -865,7 +865,7 @@ input:checked+.slide-container .nav label {
 }
 
 
-@media (max-width: 768px) and (max-width:1365px) {
+@media (min-width: 768px) and (max-width:1365px) {
   .main-content {
     padding-top: 3rem!important;
   }
