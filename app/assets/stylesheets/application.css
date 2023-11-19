@@ -24,6 +24,7 @@ body {
   background-image: url('top-bg.jpg');
   background-repeat: no-repeat;
   background-size: 100%;
+  background-position-x: center;
 }
 
 .demo-wrap {
@@ -467,6 +468,12 @@ body {
 }
 
 @media (max-width: 768px) {
+  .com-btn, .chao-btn {
+    color: #FFFFFF;
+    text-decoration: none;
+    font-size: 1.5rem !important;
+  }
+
   .wrapper {
     display: revert !important;
   }
@@ -482,6 +489,8 @@ body {
 
   .topnavbar-wrapper {
     height: 450px;
+    background-position-x: center!important;
+    background-size: 190%!important;
   }
 
   .top-content {
@@ -657,6 +666,7 @@ body {
   .recommend-top {
     flex-direction: column!important;
     padding-top: 3rem!important;
+    margin-top: 6rem!important;
   }
 
   .recommend-bottom {
@@ -866,6 +876,12 @@ input:checked+.slide-container .nav label {
 
 
 @media (min-width: 768px) and (max-width:1365px) {
+  .com-btn, .chao-btn {
+    color: #FFFFFF;
+    text-decoration: none;
+    font-size: 1.5rem;
+  }
+
   .main-content {
     padding-top: 3rem!important;
   }
@@ -1147,6 +1163,7 @@ input:checked+.slide-container .nav label {
   .recommend-top {
     flex-direction: column!important;
     padding-top: 3rem!important;
+    margin-top: 6rem!important;
   }
 
   .recommend-bottom {
@@ -1221,4 +1238,10 @@ input:checked+.slide-container .nav label {
     padding-top: 10px;
     padding-bottom: 10px;
   }
+}
+
+.com-btn, .chao-btn {
+  color: #FFFFFF;
+  text-decoration: none;
+  font-size: 2.5rem;
 }
