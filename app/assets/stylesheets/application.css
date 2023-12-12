@@ -21,7 +21,7 @@ body {
 .topnavbar-wrapper {
   height: 800px;
   overflow: hidden;
-  background-image: url('top-bg.jpg');
+  background-image: url('mon_ngon.jpg');
   background-repeat: no-repeat;
   background-size: 100%;
   background-position-x: center;
@@ -118,6 +118,19 @@ body {
   padding: 0rem 0.8rem;
   padding-bottom: 0.2rem;
   cursor: pointer;
+}
+
+.recommend-description > span {
+  white-space: nowrap !important;
+  overflow: hidden !important;
+  text-overflow: ellipsis !important;
+}
+
+.recommend-name > span {
+  width: 150px !important;
+  white-space: nowrap !important;
+  overflow: hidden !important;
+  text-overflow: ellipsis !important;
 }
 
 .book-table-btn>a {
@@ -567,7 +580,7 @@ body {
   .wc-background {
     height: 250px;
     margin-top: 0;
-    background-image: url(lau_thai_hai_san.jpg) !important;
+    background-image: url(why_choose.jpg) !important;
     background-repeat: no-repeat;
     background-size: 100%;
   }
@@ -582,6 +595,26 @@ body {
   .wc-item-content {
     font-size: 0.8rem;
     margin-left: 4%;
+  }
+
+  .recommend-description > span {
+    white-space: nowrap !important;
+    overflow: hidden !important;
+    text-overflow: ellipsis !important;
+  }
+
+  #saying-about-us-1,
+  #saying-about-us-2,
+  #saying-about-us-3 {
+    background-position-x: center!important;
+    background-size: 250%!important;
+  }
+
+  .recommend-name > span {
+    width: 150px !important;
+    white-space: nowrap !important;
+    overflow: hidden !important;
+    text-overflow: ellipsis !important;
   }
 
   #footer {
@@ -1018,6 +1051,9 @@ input:checked+.slide-container .nav label {
 
   .recommend-description {
     font-size: 1rem !important;
+    white-space: nowrap;
+    overflow: hidden;
+    text-overflow: ellipsis;
   }
 
   .recommend-price, .recommend-rate {
