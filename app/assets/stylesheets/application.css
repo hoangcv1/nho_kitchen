@@ -304,6 +304,13 @@ body {
   margin-top: 10%;
 }
 
+.recommend-name-no {
+  font-size: 1rem;
+  font-weight: 600;
+  position: relative;
+  margin-top: 10%;
+}
+
 .recommend-description {
   font-size: 0.7rem;
   height: 40% !important;
@@ -742,13 +749,75 @@ body {
   .container-fluid {
     justify-content: center !important;
   }
+
+  .open-button {
+    background-color: #555;
+    color: white;
+    padding: 16px 20px;
+    border: none;
+    cursor: pointer;
+    opacity: 0.8;
+    position: fixed;
+    bottom: 23px;
+    right: 28px;
+    width: 280px;
+  }
+
+  /* The popup form - hidden by default */
+  .form-popup {
+    display: none;
+    position: fixed;
+    top: 0;
+    z-index: 9;
+    width: 100%;
+    color: white;
+  }
+
+  /* Add styles to the form container */
+  .form-container {
+    padding: 10px;
+    background-color: #3b4138;
+  }
+
+  /* Set a style for the submit/login button */
+  .form-container .btn {
+    background-color: #04AA6D;
+    color: white;
+    border: none;
+    cursor: pointer;
+  }
+
+  /* Add some hover effects to buttons */
+  .form-container .btn:hover, .open-button:hover {
+    opacity: 1;
+  }
+
+  .order-now {
+    border: 1px solid #efb722 !important;
+    border-radius: 1rem;
+    padding: 0rem 0.8rem;
+    padding-bottom: 0.2rem;
+    cursor: pointer;
+  }
+
+  .nho-name {
+    font-size: 1.5rem;
+  }
+
+  .nho-link>a{
+    text-decoration: none;
+    color: white;
+    padding-bottom: 0 !important;
+    padding: 0.3rem 1rem !important;
+  }
+
   #custom-bootstrap-menu .navbar-collapse.collapse.in {
     display: block !important;
   }
   #custom-bootstrap-menu .navbar-toggle {
     display: block !important;
     font-size: 20px;
-    color: #7f8082;
+    color: #dee2e6;
   }
   #custom-bootstrap-menu .navbar-collapse {
     text-align: center;
@@ -1049,6 +1118,60 @@ input:checked+.slide-container .nav label {
     font-size: 1.2rem !important;
   }
 
+  .open-button {
+    background-color: #555;
+    color: white;
+    padding: 16px 20px;
+    border: none;
+    cursor: pointer;
+    opacity: 0.8;
+    position: fixed;
+    bottom: 23px;
+    right: 28px;
+    width: 280px;
+  }
+
+  /* The popup form - hidden by default */
+  .form-popup {
+    display: none;
+    position: fixed;
+    top: 0;
+    left: 0;
+    z-index: 9;
+    width: 100%;
+    color: white;
+  }
+
+  /* Add styles to the form container */
+  .form-container {
+    padding: 10px;
+    background-color: #3b4138;
+  }
+
+  /* Set a style for the submit/login button */
+  .form-container .btn {
+    background-color: #04AA6D;
+    color: white;
+    border: none;
+    cursor: pointer;
+  }
+
+  /* Add some hover effects to buttons */
+  .form-container .btn:hover, .open-button:hover {
+    opacity: 1;
+  }
+
+  .nho-name {
+    font-size: 1.5rem;
+  }
+
+  .nho-link>a{
+    text-decoration: none;
+    color: white;
+    padding-bottom: 0 !important;
+    padding: 0.3rem 1rem !important;
+  }
+
   .recommend-description {
     font-size: 1rem !important;
     white-space: nowrap;
@@ -1280,4 +1403,58 @@ input:checked+.slide-container .nav label {
   color: #FFFFFF;
   text-decoration: none;
   font-size: 2.5rem;
+}
+
+.open-button {
+  background-color: #555;
+  color: white;
+  padding: 16px 20px;
+  border: none;
+  cursor: pointer;
+  opacity: 0.8;
+  position: fixed;
+  bottom: 23px;
+  right: 28px;
+  width: 280px;
+}
+
+/* The popup form - hidden by default */
+.form-popup {
+  display: none;
+  position: fixed;
+  top: 0;
+  left: 0;
+  z-index: 9;
+  width: 100%;
+  color: white;
+}
+
+/* Add styles to the form container */
+.form-container {
+  padding: 10px;
+  background-color: #3b4138;
+}
+
+/* Set a style for the submit/login button */
+.form-container .btn {
+  background-color: #04AA6D;
+  color: white;
+  border: none;
+  cursor: pointer;
+}
+
+/* Add some hover effects to buttons */
+.form-container .btn:hover, .open-button:hover {
+  opacity: 1;
+}
+
+.nho-name {
+  font-size: 1.5rem;
+}
+
+.nho-link>a{
+  text-decoration: none;
+  color: white;
+  padding-bottom: 0 !important;
+  padding: 0.3rem 1rem !important;
 }
