@@ -126,13 +126,6 @@ body {
   text-overflow: ellipsis !important;
 }
 
-.recommend-name > span {
-  width: 150px !important;
-  white-space: nowrap !important;
-  overflow: hidden !important;
-  text-overflow: ellipsis !important;
-}
-
 .book-table-btn>a {
   text-decoration: none;
   color: #FFFFFF;
@@ -301,14 +294,12 @@ body {
   font-size: 1rem;
   font-weight: 600;
   position: relative;
-  margin-top: 10%;
+  margin-top: 8.5%;
+  text-align: center;
 }
 
-.recommend-name-no {
-  font-size: 1rem;
-  font-weight: 600;
-  position: relative;
-  margin-top: 10%;
+.recommend-name > span {
+  font-size: 15px;
 }
 
 .recommend-description {
@@ -618,10 +609,9 @@ body {
   }
 
   .recommend-name > span {
-    width: 150px !important;
-    white-space: nowrap !important;
-    overflow: hidden !important;
-    text-overflow: ellipsis !important;
+    font-size: 13.5px !important;
+    padding-left: 10px;
+    padding-right: 10px;
   }
 
   #footer {
@@ -1114,8 +1104,8 @@ input:checked+.slide-container .nav label {
     padding-bottom: 5rem!important;
   }
 
-  .recommend-name {
-    font-size: 1.2rem !important;
+  .recommend-name > span{
+    font-size: 17px !important;
   }
 
   .open-button {
